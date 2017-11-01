@@ -4,12 +4,12 @@ require './simon_says.rb'
 
 class TestSimonSays < MiniTest::Test
   def test_echo_hello
-    skip
+    # skip
     assert_equal "hello", echo("hello")
   end
 
   def test_echo_bye
-    skip
+    # skip
     assert_equal "bye", echo("bye")
   end
 

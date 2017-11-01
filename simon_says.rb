@@ -1,3 +1,7 @@
+def echo(string)
+  string
+end
+
 def start_of_word(string, chars)
   chars -= 1
     if chars > 0
