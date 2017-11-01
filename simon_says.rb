@@ -6,6 +6,10 @@ def shout(string)
   string.upcase
 end
 
+def repeat(string, times)
+  Array.new(times, string).join(" ")
+end
+
 def start_of_word(string, chars)
   chars -= 1
     if chars > 0
@@ -19,3 +23,7 @@ def start_of_word(string, chars)
       string[chars]
     end
   end
+
+def first_word(sentence)
+  sentence.split.first
+end
